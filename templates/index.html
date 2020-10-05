@@ -1,0 +1,28 @@
+{% extends 'base.html' %} {% block head %}
+
+<title>Home</title>
+{% endblock %} 
+
+{% block body %}
+<br>
+<h1>Home Page</h1>
+<br>
+<main role="main">
+    <div class="jumbotron">
+        <div class="col-sm-8 mx-auto">
+            <h1>Welcome!</h1>
+            <p>
+                Welcome to my demo blog! Here we'll be talking about everything Flask-related! This project demos some of the basic functionalities of 
+                the Flask web development framework for Python in the form of a blog based around CRUD operations. 
+            </p>
+            <p>
+                Please visit me on <a href="https://www.github.com/marshallnw18">Github</a> to follow more of my ongoing projects!
+            </p>
+            <p>
+                <a class="btn btn-primary" href="/posts" role="button">View Demo Posts
+                    &raquo;</a>
+            </p>
+        </div>
+    </div>
+</main>
+{% endblock %}
